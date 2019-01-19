@@ -4,27 +4,67 @@
         <title>Craigslist</title>
         
         <link href="https://fonts.googleapis.com/css?family=Coiny|Source+Sans+Pro" rel="stylesheet">
-        
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
         <link href="../static/index.css" rel="stylesheet">
     </head>
     <body>
         <nav class="navbar">
             <header class="navbar-header">
-                Craigslist
+                <a href="#" class="navbar-header-link">
+                    Craigslist
+                </a>
+                
+                <!-- Set location of user-->
+                <span class="navbar-header-location">
+                    SF Bay Area
+                </span>
             </header>
             
             <div class="navbar-items">
                 <div class="navbar-item">
-                    Post
+                    <a href="#" class="navbar-item-link">
+                        Post
+                    </a>
                 </div>
                 <div class="navbar-item">
-                    Account
+                    <a href="#" class="navbar-item-link">
+                        Account
+                    </a>
                 </div>
             </div>
         </nav>
-        <h2>Search</h2>
+        
+        <!-- Search Bar -->
+        <section class="search">
+            <div class="searchbar">
+                <input type="text" class="search-input" placeholder="Search..">
+                <i class="fas fa-search"></i>
+            </div>
+        </section>
+        
+        
+        <!-- Render Template for Listings -->
         <h2>Listings</h2>
         
-        
+        <footer>
+            <div class="footer-items">
+                <div class="footer-item">
+                    <a href="#" class="footer-link">
+                        About
+                    </a>
+                </div>
+                <div class="footer-item">
+                    <a href="#" class="footer-link">
+                        Contact
+                    </a>
+                </div>
+                <div class="footer-item">
+                    <a href="#" class="footer-link">
+                        Careers
+                    </a>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
